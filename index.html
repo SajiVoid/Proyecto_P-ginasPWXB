@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo Pinki y Cerebro | Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Equipo Pinki y Cerebro</h1>
+        <p>Desarrollo y Programación Web XB</p>
+    </header>
+
+    <nav>
+        <!-- Requisito: Enlazar con un Navbar-Brand, aquí lo ponemos como el primer enlace -->
+        <a href="equipo.html" style="font-weight: bold; color: #0dcaf0;">Pinki y Cerebro (Ver Motivo)</a>
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html">Acerca de</a>
+        <a href="contacto.html">Contáctanos</a>
+    </nav>
+
+    <main class="container">
+        <!-- Carrusel del Equipo -->
+        <section class="seccion-blanca">
+            <h2 class="margen-abajo">Nuestro Trabajo en Equipo</h2>
+            <!-- Carrusel con botones, sin movimiento automático para mantenerlo simple -->
+            <div id="carruselEquipo" class="carousel carousel-dark slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/amigos1.jpeg" class="d-block carrusel-foto" alt="Trabajo 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/amigos2.jpeg" class="d-block carrusel-foto" alt="Trabajo 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/amigos3.jpeg" class="d-block carrusel-foto" alt="Trabajo 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/amigos4.jpeg" class="d-block carrusel-foto" alt="Trabajo 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/amigos5.jpeg" class="d-block carrusel-foto" alt="Trabajo 5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselEquipo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselEquipo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Tecnologías usadas (Usando Grid de Bootstrap) -->
+        <section class="seccion-blanca text-center">
+            <h2 class="margen-abajo">Tecnologías de la Actividad</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <h4 style="color: #dc3545;">HTML5</h4>
+                    <p style="font-size: 0.9rem;">Estructura de la página web.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 style="color: #0d6efd;">CSS3</h4>
+                    <p style="font-size: 0.9rem;">Estilos, colores y presentación.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 style="color: #198754;">CSS Grid</h4>
+                    <p style="font-size: 0.9rem;">Alineación de cajas en columnas.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 style="color: #6f42c1;">Bootstrap</h4>
+                    <p style="font-size: 0.9rem;">Framework para diseño responsivo.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Equipo Pinki y Cerebro &bull; Programación Web XB &bull; 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
